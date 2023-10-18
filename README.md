@@ -13,3 +13,8 @@ examples:
 
 ### Fixed-size, seq-chars
 Same as above, but the attacker assumes the password has a given length.
+
+examples:
+- "0" is infinitely strong, if assumed size isn't 1.
+- "a" repeated n times, grows in strength exponentially, if assumed size matches n.
+- "aaa" is weaker in this model when compared to the previous one (if assumed size 3), as smaller passwords will never be checked.

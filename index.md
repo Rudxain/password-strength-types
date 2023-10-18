@@ -26,4 +26,11 @@ examples:
 - "aa" is equivalent to "zz"
 - "0" is theoretically infinitely strong, but it isn't in practice
 
+## Dictionary
 
+### 1-word
+The attacker assumes the victim doesn't use **passphrases**.
+
+examples:
+- "correct horse battery staple" is infinitely strong, for similar reasons as the fixed-size Brute-Force.
+- "bruh0" may be weaker than "bruh69"
